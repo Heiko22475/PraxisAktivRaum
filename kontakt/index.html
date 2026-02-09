@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - Praxis Aktivraum</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">Praxis Aktivraum</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menü</button>
+        <nav id="main-nav" class="main-nav">
+          <a href="/">Start</a>
+          <a href="/leistungen/">Leistungen</a>
+          <a href="/ueber-uns/">Über uns</a>
+          <a href="/team/">Team</a>
+          <a href="/kontakt/">Kontakt</a>
+        </nav>
+        <a class="btn btn-primary" href="/kontakt/">Termin anfragen</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container split">
+          <div>
+            <h1 class="section-title">Kontakt</h1>
+            <p class="section-lead">
+              Wir sind gerne für Sie da. Vereinbaren Sie einen Termin oder nutzen Sie das Formular
+              für Ihre Anfrage.
+            </p>
+            <p>
+              Für Unternehmen bieten wir feste Ansprechpartner und klare Rückmeldungen, damit die
+              Abstimmung schnell und verlässlich bleibt.
+            </p>
+            <div class="list">
+              <div class="list-item">Adresse: Hauptstrasse 12, 12345 Musterstadt</div>
+              <div class="list-item">Telefon: 0123 456 789</div>
+              <div class="list-item">E-Mail: kontakt@praxis-aktivraum.de</div>
+            </div>
+          </div>
+          <div class="map">
+            <iframe
+              title="Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.987140438239!2d13.41482831582686!3d52.52064597981315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851e3a3f2f6bd%3A0xa8b28d1b5bede92!2sBerlin%2C%20Germany!5e0!3m2!1sen!2sde!4v1700000000000"
+              width="100%"
+              height="320"
+              style="border: 0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Kontaktformular</h2>
+          <form class="form glow">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Ihr Name" required />
+            </div>
+            <div>
+              <label for="phone">Telefon</label>
+              <input id="phone" name="phone" type="tel" placeholder="Ihre Telefonnummer" />
+            </div>
+            <div>
+              <label for="email">E-Mail</label>
+              <input id="email" name="email" type="email" placeholder="Ihre E-Mail" required />
+            </div>
+            <div>
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" placeholder="Wie können wir helfen?" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Nachricht senden</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split">
+          <div>
+            <h2 class="section-title">Öffnungszeiten</h2>
+            <div class="list">
+              <div class="list-item">Montag - Freitag: 07:30 - 19:00 Uhr</div>
+              <div class="list-item">Samstag: 09:00 - 13:00 Uhr</div>
+              <div class="list-item">Termine nach Vereinbarung</div>
+            </div>
+          </div>
+          <div class="highlight glow">
+            <h3>So erreichen Sie uns</h3>
+            <div class="list">
+              <div class="list-item">Parkplätze direkt vor der Praxis</div>
+              <div class="list-item">Barrierefreier Eingang und kurze Wege</div>
+              <div class="list-item">Öffentliche Verkehrsmittel in 3 Minuten</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Häufige Fragen</h2>
+          <div class="card-grid stagger">
+            <article class="card glow" style="--i: 1">
+              <h3>Wie schnell bekomme ich einen Termin?</h3>
+              <p>In der Regel innerhalb weniger Tage. Akute Fälle priorisieren wir nach Absprache.</p>
+            </article>
+            <article class="card" style="--i: 2">
+              <h3>Was soll ich zum ersten Termin mitbringen?</h3>
+              <p>Bitte bringen Sie vorhandene Befunde und bequeme Kleidung mit.</p>
+            </article>
+            <article class="card" style="--i: 3">
+              <h3>Gibt es Angebote für Unternehmen?</h3>
+              <p>Ja, wir bieten individuelle Präventionskonzepte und schnelle Rückmeldungen.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Praxis Aktivraum</div>
+          <p>Physiotherapie &amp; Bewegung in Ihrer Nähe.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Kontakt</strong>
+          <span>Hauptstrasse 12, 12345 Musterstadt</span>
+          <span>Telefon: 0123 456 789</span>
+          <span>E-Mail: kontakt@praxis-aktivraum.de</span>
+        </div>
+        <div class="footer-links">
+          <strong>Service</strong>
+          <a href="/leistungen/">Leistungen</a>
+          <a href="/team/">Team</a>
+          <button class="link-button" data-modal-target="impressum">Impressum</button>
+          <button class="link-button" data-modal-target="datenschutz">Datenschutz</button>
+        </div>
+        <div class="footer-links">
+          <strong>Social</strong>
+          <div class="social-links">
+            <a class="social-link" href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17" cy="7" r="1" />
+              </svg>
+              Instagram
+            </a>
+            <a class="social-link" href="#" aria-label="Facebook">
+              <svg class="filled" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 8h3V4h-3c-2.2 0-4 1.8-4 4v3H7v4h3v5h4v-5h3l1-4h-4V8c0-0.6 0.4-1 1-1z" />
+              </svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" data-modal="impressum" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" data-modal-close>Schließen</button>
+        <h2>Impressum</h2>
+        <p>
+          Praxis Aktivraum, Hauptstrasse 12, 12345 Musterstadt. Vertretungsberechtigt: Petra
+          Beispiel. Kontakt: kontakt@praxis-aktivraum.de.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" data-modal="datenschutz" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" data-modal-close>Schließen</button>
+        <h2>Datenschutz</h2>
+        <p>
+          Wir behandeln Ihre Daten vertraulich und verwenden sie ausschließlich zur Bearbeitung
+          Ihrer Anfrage. Details erhalten Sie auf Wunsch direkt in der Praxis.
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

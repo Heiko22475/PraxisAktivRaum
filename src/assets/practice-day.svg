@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="day" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6f2" />
+      <stop offset="1" stop-color="#cfe3d6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="32" fill="url(#day)" />
+  <rect x="90" y="90" width="620" height="340" rx="28" fill="#ffffff" stroke="#c8ddcf" stroke-width="3" />
+  <rect x="140" y="140" width="180" height="110" rx="18" fill="#e3f0e7" />
+  <rect x="360" y="140" width="300" height="24" rx="12" fill="#d8e8dd" />
+  <rect x="360" y="176" width="240" height="16" rx="8" fill="#d8e8dd" />
+  <rect x="360" y="206" width="260" height="16" rx="8" fill="#d8e8dd" />
+  <rect x="140" y="270" width="520" height="26" rx="13" fill="#cfe6d6" />
+  <rect x="140" y="310" width="460" height="18" rx="9" fill="#d8e8dd" />
+</svg>

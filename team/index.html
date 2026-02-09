@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team - Praxis Aktivraum</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">Praxis Aktivraum</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menü</button>
+        <nav id="main-nav" class="main-nav">
+          <a href="/">Start</a>
+          <a href="/leistungen/">Leistungen</a>
+          <a href="/ueber-uns/">Über uns</a>
+          <a href="/team/">Team</a>
+          <a href="/kontakt/">Kontakt</a>
+        </nav>
+        <a class="btn btn-primary" href="/kontakt/">Termin anfragen</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">Unser Team</h1>
+          <p class="section-lead">
+            Ein erfahrenes Team aus Physiotherapeutinnen und Physiotherapeuten begleitet Sie mit
+            Ruhe, Fachwissen und einem echten Blick für Ihre Ziele.
+          </p>
+          <p>
+            Wir arbeiten interdisziplinär, damit jede Behandlung klar abgestimmt ist und Sie sich
+            in jedem Schritt sicher fühlen.
+          </p>
+          <div class="card-grid stagger">
+            <article class="card glow" style="--i: 1">
+              <img class="profile-image" src="/src/assets/profile.svg" alt="Profilbild Petra Beispiel" />
+              <h3>Petra Beispiel</h3>
+              <p>Praxisleitung, Manuelle Therapie, Reha-Planung</p>
+            </article>
+            <article class="card" style="--i: 2">
+              <img class="profile-image" src="/src/assets/profile.svg" alt="Profilbild Jonas Kramer" />
+              <h3>Jonas Kramer</h3>
+              <p>Physiotherapeut, Sportphysiotherapie, Prävention</p>
+            </article>
+            <article class="card" style="--i: 3">
+              <img class="profile-image" src="/src/assets/profile.svg" alt="Profilbild Lea Neumann" />
+              <h3>Lea Neumann</h3>
+              <p>Physiotherapeutin, Rehabilitation, Trainingstherapie</p>
+            </article>
+            <article class="card glow" style="--i: 4">
+              <img class="profile-image" src="/src/assets/profile.svg" alt="Profilbild Martin Weiss" />
+              <h3>Martin Weiss</h3>
+              <p>Physiotherapeut, Schmerzmanagement, Mobilisation</p>
+            </article>
+            <article class="card" style="--i: 5">
+              <img class="profile-image" src="/src/assets/profile.svg" alt="Profilbild Sophia Berger" />
+              <h3>Sophia Berger</h3>
+              <p>Physiotherapeutin, Prävention, Bewegungsanalyse</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split">
+          <div>
+            <h2 class="section-title">Verlässlich in jeder Phase</h2>
+            <p>
+              Von der ersten Beratung bis zum letzten Termin begleiten wir Sie mit klarer
+              Kommunikation und einem festen Ansprechpartner. So entsteht Vertrauen, das bleibt.
+            </p>
+            <div class="list">
+              <div class="list-item">Fester Ansprechpartner pro Therapiephase</div>
+              <div class="list-item">Regelmäßige Fortbildung im Team</div>
+              <div class="list-item">Koordination mit Ärzten und Unternehmen</div>
+            </div>
+          </div>
+          <img class="image-placeholder" src="/src/assets/practice-day.svg" alt="Praxisalltag" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split">
+          <div class="highlight glow">
+            <h3>Kompetenzen im Team</h3>
+            <div class="list">
+              <div class="list-item">Manuelle Therapie und Gelenkbehandlung</div>
+              <div class="list-item">Rehabilitation und Trainingssteuerung</div>
+              <div class="list-item">Prävention und ergonomische Beratung</div>
+              <div class="list-item">Sportphysiotherapie und Leistungsaufbau</div>
+            </div>
+          </div>
+          <div>
+            <h2 class="section-title">Gemeinsame Haltung, klare Sprache</h2>
+            <p>
+              Unser Team arbeitet mit einer einheitlichen Methodik, damit Sie sich nicht bei jedem
+              Termin neu orientieren müssen. Wir dokumentieren fortlaufend und stimmen uns intern
+              eng ab.
+            </p>
+            <p>
+              Das Ergebnis: klare Kommunikation, eine ruhige Atmosphäre und eine Betreuung, die
+              sich jederzeit professionell anfühlt.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Praxis Aktivraum</div>
+          <p>Physiotherapie &amp; Bewegung in Ihrer Nähe.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Kontakt</strong>
+          <span>Hauptstrasse 12, 12345 Musterstadt</span>
+          <span>Telefon: 0123 456 789</span>
+          <span>E-Mail: kontakt@praxis-aktivraum.de</span>
+        </div>
+        <div class="footer-links">
+          <strong>Service</strong>
+          <a href="/leistungen/">Leistungen</a>
+          <a href="/team/">Team</a>
+          <button class="link-button" data-modal-target="impressum">Impressum</button>
+          <button class="link-button" data-modal-target="datenschutz">Datenschutz</button>
+        </div>
+        <div class="footer-links">
+          <strong>Social</strong>
+          <div class="social-links">
+            <a class="social-link" href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17" cy="7" r="1" />
+              </svg>
+              Instagram
+            </a>
+            <a class="social-link" href="#" aria-label="Facebook">
+              <svg class="filled" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 8h3V4h-3c-2.2 0-4 1.8-4 4v3H7v4h3v5h4v-5h3l1-4h-4V8c0-0.6 0.4-1 1-1z" />
+              </svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" data-modal="impressum" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" data-modal-close>Schließen</button>
+        <h2>Impressum</h2>
+        <p>
+          Praxis Aktivraum, Hauptstrasse 12, 12345 Musterstadt. Vertretungsberechtigt: Petra
+          Beispiel. Kontakt: kontakt@praxis-aktivraum.de.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" data-modal="datenschutz" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" data-modal-close>Schließen</button>
+        <h2>Datenschutz</h2>
+        <p>
+          Wir behandeln Ihre Daten vertraulich und verwenden sie ausschließlich zur Bearbeitung
+          Ihrer Anfrage. Details erhalten Sie auf Wunsch direkt in der Praxis.
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
