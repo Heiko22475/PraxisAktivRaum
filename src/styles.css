@@ -233,7 +233,7 @@ img {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 18px;
+  bottom: 0;
   z-index: 50;
   display: none;
   pointer-events: none;
@@ -256,6 +256,7 @@ img {
   padding: 16px 20px;
   box-shadow: var(--shadow);
   backdrop-filter: blur(8px);
+  margin: 12px;
 }
 
 .cookie-banner__text {
@@ -265,7 +266,7 @@ img {
 
 .cookie-banner__actions {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -274,10 +275,41 @@ img {
   font-size: 0.95rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  .cookie-banner {
+    bottom: 0;
+  }
+
   .cookie-banner__inner {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px 16px;
+    margin: 8px;
+    border-radius: var(--radius-sm);
+  }
+
+  .cookie-banner__text {
+    max-width: 100%;
+    font-size: 0.93rem;
+    line-height: 1.5;
+  }
+
+  .cookie-banner__actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .cookie-banner .btn {
+    padding: 11px 12px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .cookie-banner .btn:nth-child(3) {
+    grid-column: 1 / -1;
   }
 }
 
