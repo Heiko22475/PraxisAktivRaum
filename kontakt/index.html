@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
+    <div
+      class="cookie-banner"
+      data-cookie-banner
+      role="dialog"
+      aria-live="polite"
+      aria-label="Cookie Hinweis"
+    >
+      <div class="container cookie-banner__inner">
+        <p class="cookie-banner__text">
+          Wir verwenden essenzielle Cookies, damit diese Website funktioniert. Weitere Informationen finden
+          Sie in unserer Datenschutzerklaerung.
+        </p>
+        <div class="cookie-banner__actions">
+          <button class="btn btn-primary" data-cookie-accept type="button">Akzeptieren</button>
+          <button class="btn btn-outline" data-cookie-decline type="button">Ablehnen</button>
+          <button class="btn btn-outline" data-modal-target="datenschutz" type="button">
+            Datenschutz
+          </button>
+        </div>
+      </div>
+    </div>
     <header class="site-header">
       <div class="container header-inner">
         <a class="logo" href="/">Praxis Aktivraum</a>

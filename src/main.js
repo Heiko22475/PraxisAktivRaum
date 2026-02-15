@@ -12,6 +12,10 @@ const modalTriggers = document.querySelectorAll("[data-modal-target]");
 const modalCloses = document.querySelectorAll("[data-modal-close]");
 const modals = document.querySelectorAll("[data-modal]");
 
+const cookieBanner = document.querySelector("[data-cookie-banner]");
+const cookieAccept = document.querySelector("[data-cookie-accept]");
+const cookieDecline = document.querySelector("[data-cookie-decline]");
+
 const openModal = (name) => {
   const modal = document.querySelector(`[data-modal="${name}"]`);
   if (!modal) return;
@@ -54,3 +58,17 @@ document.addEventListener("keydown", (event) => {
     closeModal(openModalElement);
   }
 });
+
+if (cookieBanner && cookieAccept) {
+  cookieBanner.classList.add("is-visible");
+
+  cookieAccept.addEventListener("click", () => {
+    cookieBanner.classList.remove("is-visible");
+  });
+
+  if (cookieDecline) {
+    cookieDecline.addEventListener("click", () => {
+      cookieBanner.classList.remove("is-visible");
+    });
+  }
+}
